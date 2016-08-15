@@ -1,0 +1,14 @@
+<div >
+   
+    <table ><thead><tr>
+         <th >USER ID</th> <th scope="col">ID</th> <th scope="col" >TITLE</th><th scope="col" >BODY</th>
+        </tr></thead>
+         <tr ng-repeat="postdata in data track by $index">
+             <td class="items">{{postdata.userId }}</td><td class="items">{{postdata.id}}</td><td class="items">{{postdata.title}}</td><td class="items">{{postdata.body}}</td>
+         </tr>
+     </table>
+</div>
+
+
+
+
